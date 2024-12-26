@@ -40,7 +40,7 @@ style.textContent = `
     right: 20px;
     width: 60px;
     height: 60px;
-    background-color: #4CAF50;
+    background-color: #fb923c;
     color: white;
     border-radius: 50%;
     display: flex;
