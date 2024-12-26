@@ -14,6 +14,11 @@ chatIcon.id = 'hannibal-chat-icon';
 chatIcon.innerHTML = `<i class="fa fa-comments" aria-hidden="true"></i>`;
 document.body.appendChild(chatIcon);
 
+const chatIcon = document.createElement('div');
+chatIcon.id = 'hannibal-chat-icon';
+chatIcon.innerHTML = `<i class="fa fa-comments" aria-hidden="true"></i>`;
+document.body.appendChild(chatIcon);
+
 // Create the chatbox container
 const chatboxContainer = document.createElement('div');
 chatboxContainer.id = 'hannibal-chatbox-container';
@@ -67,7 +72,7 @@ style.textContent = `
   }
 
   #hannibal-chatbox-header {
-    background-color: #4CAF50;
+    background-color: #fb923c;
     color: white;
     padding: 10px;
     display: flex;
@@ -148,7 +153,7 @@ style.textContent = `
   .hannibal {
     text-align: left;
     margin: 5px 0;
-    color: #4CAF50;
+    color: #fb923c;
   }
 `;
 document.head.appendChild(style);
