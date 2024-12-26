@@ -14,11 +14,6 @@ chatIcon.id = 'hannibal-chat-icon';
 chatIcon.innerHTML = `<i class="fa fa-comments" aria-hidden="true"></i>`;
 document.body.appendChild(chatIcon);
 
-const chatIcon = document.createElement('div');
-chatIcon.id = 'hannibal-chat-icon';
-chatIcon.innerHTML = `<i class="fa fa-comments" aria-hidden="true"></i>`;
-document.body.appendChild(chatIcon);
-
 // Create the chatbox container
 const chatboxContainer = document.createElement('div');
 chatboxContainer.id = 'hannibal-chatbox-container';
